@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7798507a-dfb8-4c99-ab83-bbd9af13c748" name="Default" comment="Obrazki">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/RouterComponent.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Router.js" afterPath="" />
+    <list default="true" id="7798507a-dfb8-4c99-ab83-bbd9af13c748" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Map.js" afterPath="$PROJECT_DIR$/src/components/Map.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Map.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Map.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="523">
+              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1511603179393" expanded="true" signature="2342:2365" ph="&lt;MapView/&gt;" />
-                <marker date="1511603179393" expanded="true" signature="2342:2381" ph="&lt;View/&gt;" />
-                <marker date="1511603179393" expanded="true" signature="2342:2392" ph="{...}" />
-                <marker date="1511603179393" expanded="true" signature="2342:2394" ph="{...}" />
-                <marker date="1511603179393" expanded="true" signature="2411:2520" ph="{...}" />
-                <marker date="1511603179393" expanded="true" signature="2423:2446" ph="{...}" />
-                <marker date="1511603179393" expanded="true" signature="2461:2484" ph="{...}" />
-                <marker date="1511603179393" expanded="true" signature="2495:2518" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -43,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Welcome.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <marker date="1511609582813" expanded="true" signature="220:438" ph="{...}" />
                 <marker date="1511609582813" expanded="true" signature="233:438" ph="{...}" />
@@ -62,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RouterComponent.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RouterComponent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/RouterComponent.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -78,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -89,9 +80,11 @@
       <file leaf-file-name="Posterunki.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Posterunki.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="504">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,10 +101,11 @@
         <option value="$PROJECT_DIR$/src/components/Markers.js" />
         <option value="$PROJECT_DIR$/src/components/Test.js" />
         <option value="$PROJECT_DIR$/src/components/Welcome.js" />
-        <option value="$PROJECT_DIR$/src/components/Map.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/components/Router.js" />
         <option value="$PROJECT_DIR$/src/components/RouterComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/Posterunki.js" />
+        <option value="$PROJECT_DIR$/src/components/Map.js" />
       </list>
     </option>
   </component>
@@ -226,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511575071607</updated>
-      <workItem from="1511575073059" duration="15857000" />
+      <workItem from="1511575073059" duration="19516000" />
     </task>
     <task id="LOCAL-00001" summary="Policeman marker">
       <created>1511585496154</created>
@@ -284,11 +278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511609262658</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Obrazki">
+      <created>1511609702905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1511609702905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15857000" />
+    <option name="totallyTimeSpent" value="19516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -329,40 +330,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Obrazki" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1511603179393" expanded="true" signature="2342:2365" ph="&lt;MapView/&gt;" />
-            <marker date="1511603179393" expanded="true" signature="2342:2381" ph="&lt;View/&gt;" />
-            <marker date="1511603179393" expanded="true" signature="2342:2392" ph="{...}" />
-            <marker date="1511603179393" expanded="true" signature="2342:2394" ph="{...}" />
-            <marker date="1511603179393" expanded="true" signature="2411:2520" ph="{...}" />
-            <marker date="1511603179393" expanded="true" signature="2423:2446" ph="{...}" />
-            <marker date="1511603179393" expanded="true" signature="2461:2484" ph="{...}" />
-            <marker date="1511603179393" expanded="true" signature="2495:2518" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Markers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Posterunki.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -380,7 +357,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Welcome.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <marker date="1511609582813" expanded="true" signature="220:438" ph="{...}" />
             <marker date="1511609582813" expanded="true" signature="233:438" ph="{...}" />
@@ -404,7 +381,7 @@
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -415,6 +392,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Posterunki.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

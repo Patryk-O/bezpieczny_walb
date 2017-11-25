@@ -1,8 +1,9 @@
 import React from 'react';
-import { View, Text, Button } from "react-native";
+import { View, Text, Button, TouchableOpacity } from "react-native";
 import MapView from 'react-native-maps';
 import dataJson from './Markers';
 import openMap from 'react-native-open-maps';
+import Communications from 'react-native-communications';
 
 export default class Map extends React.Component {
     przejdzDoMapy(coordinate){
@@ -19,22 +20,23 @@ export default class Map extends React.Component {
                 </View>
                 <View>
                     <Text>{this.props.posterunek.address} </Text>
-                    <View>
+                </View>
+                <View>
                     <Text>{this.props.posterunek.name} </Text>
-                    <View>
-                    <Text>{this.props.posterunek.phone} </Text>
-                    <View>
+                </View>
+                <View style={styles.photo}>
+                    <TouchableOpacity onPress={() => Communications.phonecall(this.props.posterunek.phone, true)}><Text style={styles.photo}>{this.props.posterunek.phone}</Text></TouchableOpacity>
                 </View>
                 <View>
                     <Text>{this.props.posterunek.name2} </Text>
                 </View>
-                </View>
-                    <Text>{this.props.posterunek.phone2} </Text>
-                </View>
+                <View>
+                    <TouchableOpacity onPress={() => Communications.phonecall(this.props.posterunek.phone2, true)}><Text style={styles.photo}>{this.props.posterunek.phone2}</Text></TouchableOpacity>
                 </View>
                 <View>
-                    <Text>{this.props.posterunek.email} </Text>
+                    <TouchableOpacity onPress={() => Communications.email(this.props.posterunek.phone2, null,null,'Wiadomość do komendy','Treść wiadomości')}><Text>{this.props.posterunek.email} </Text></TouchableOpacity>
                 </View>
+            </View>
                 <View>
                     <Button
                     title = "Nawigacja"
@@ -42,7 +44,6 @@ export default class Map extends React.Component {
                     />
                 </View>
 
-            </View>
             <MapView style={styles.map}
                 initialRegion={{
                     latitude: 50.772349,
@@ -80,6 +81,9 @@ const styles = {
     },
     map: {
         flex: 1
+    },
+    photo: {
+        color: 'blue'
     }
 }
    
