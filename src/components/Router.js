@@ -2,6 +2,7 @@ import React from 'react';
 import {Scene, Router, Stack, ActionConst} from 'react-native-router-flux';
 import Test from './Test';
 import Welcome from './Welcome';
+import Posterunki from './Posterunki';
 
 const RouterComponent = () => (
 
