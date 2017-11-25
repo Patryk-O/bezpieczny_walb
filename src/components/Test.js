@@ -5,10 +5,12 @@ import MapView from 'react-native-maps';
 export default class Test extends React.Component {
      markers = [
         {
-            latitude: 50.786131,
-            longitude: 16.284904,
+            latlng: {
+                latitude: 50.786131,
+                longitude: 16.284904,
+            },
             title: 'walbrzych',
-            subtitle: 'test',
+            description: 'test',
         }
     ];
   render() {
@@ -22,7 +24,15 @@ export default class Test extends React.Component {
                     latitudeDelta: 0.0922,
                     longitudeDelta: 0.0421,
                 }}
-            />
+            >
+                {this.markers.map(marker => (
+                    <MapView.Marker
+                    coordinate={marker.latlng}
+                    title={marker.title}
+                    description={marker.description}
+                    />
+                ))} 
+            </MapView>
           
             {/* <MapView.Marker
                 coordinate={}
