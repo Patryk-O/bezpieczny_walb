@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { View, Button, Text, TouchableOpacity } from "react-native";
 import { Actions } from 'react-native-router-flux';
@@ -23,4 +24,3 @@ export default class Posterunki extends React.Component {
   }
 
 }
-   

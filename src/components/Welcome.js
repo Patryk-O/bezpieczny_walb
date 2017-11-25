@@ -1,22 +1,24 @@
 import React from 'react';
-import { View, Button, Dimensions } from "react-native";
+import { View, Button, Dimensions, TouchableOpacity, Text, Image } from "react-native";
 import { Actions } from 'react-native-router-flux';
 export default class Welcome extends React.Component {
   render() {
     return (
         <View style={styles.container}>
-                <Button style={styles.button}
-                    onPress={this.przejdzDoMapy}
-                    title="Niebezpieczne miejsca"
-                    color="#841584"
-                    accessibilityLabel="Learn more about this purple button"
-                />
-                <Button style={styles.button}
-                    onPress={this.przejdzDoListy}
-                    title="Posterunki"
-                    color="#841584"
-                    accessibilityLabel="Learn more about this purple button"
-                />
+            <TouchableOpacity style={styles.button} onPress={() => this.przejdzDoMapy() }>
+               <View style={styles.button}>
+               <Text> 
+                    Niebezpieczne miejsca
+                </Text>
+                </View>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.button} onPress={() => this.przejdzDoListy() }>
+            <View style={styles.button}>
+                <Text> 
+                    Lista posterunków
+                </Text>
+                </View>
+            </TouchableOpacity>
         </View>
     );
   }
@@ -32,10 +34,13 @@ var {height, width}= Dimensions.get('window');
 const styles = {
     container:{
         flex: 1,
-        flexDirection: 'column'
+        flexDirection: 'column',
     },
     button:{
-        height:400
+        flex:1,
+        justifyContent:'center',
+        alignItems: 'center'
+        
     },
 }
    
