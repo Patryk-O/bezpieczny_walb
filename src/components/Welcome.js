@@ -16,7 +16,7 @@ export default class Welcome extends React.Component {
     );
   }
   onPressLearnMore(){
-      Actions.test();
+      Actions.map();
 
   }
 }

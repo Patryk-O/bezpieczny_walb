@@ -1,9 +1,9 @@
 import React from 'react';
-import {Text,View} from "react-native";
+import { View } from "react-native";
 import MapView from 'react-native-maps';
-import markers from './Markers'
-export default class Test extends React.Component {
-     
+import dataJson from './Markers';
+
+export default class Map extends React.Component {
   render() {
     return (
         <View style={styles.view}>
@@ -15,21 +15,15 @@ export default class Test extends React.Component {
                     longitudeDelta: 0.0421,
                 }}
             >
-                {this.markers.map(marker => (
+                {dataJson.markers.map(marker => (
                     <MapView.Marker
                     coordinate={marker.latlng}
                     title={marker.title}
                     description={marker.description}
                     image={require('../../assets/policemarker.png')}
                     />
-                ))} 
+                ))}
             </MapView>
-          
-            {/* <MapView.Marker
-                coordinate={}
-                image={require('C:\Users\MAX\Desktop\projekt\bezpieczny-walbrzych\src/policja_LOGO_1_0.jpg')}
-
-/> */}
         </View>
     );
   }
