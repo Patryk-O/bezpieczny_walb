@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7798507a-dfb8-4c99-ab83-bbd9af13c748" name="Default" comment="Poprawka punktu">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/czarnyp.png" afterPath="$PROJECT_DIR$/assets/czarnyp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/policestation.png" afterPath="$PROJECT_DIR$/assets/policestation.png" />
+    <list default="true" id="7798507a-dfb8-4c99-ab83-bbd9af13c748" name="Default" comment="Obrazki">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/RouterComponent.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Router.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,15 +44,45 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
               <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding />
+              <folding>
+                <marker date="1511609582813" expanded="true" signature="220:438" ph="{...}" />
+                <marker date="1511609582813" expanded="true" signature="233:438" ph="{...}" />
+                <marker date="1511609582813" expanded="true" signature="256:438" ph="&lt;View/&gt;" />
+                <marker date="1511609582813" expanded="true" signature="300:438" ph="&lt;TouchableOpacity/&gt;" />
+                <marker date="1511609582813" expanded="true" signature="394:438" ph="&lt;View/&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="policestation.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="policestation.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/policestation.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouterComponent.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/RouterComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -78,9 +109,9 @@
         <option value="$PROJECT_DIR$/src/components/Test.js" />
         <option value="$PROJECT_DIR$/src/components/Welcome.js" />
         <option value="$PROJECT_DIR$/src/components/Map.js" />
+        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/components/Router.js" />
         <option value="$PROJECT_DIR$/src/components/RouterComponent.js" />
-        <option value="$PROJECT_DIR$/App.js" />
       </list>
     </option>
   </component>
@@ -195,7 +226,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511575071607</updated>
-      <workItem from="1511575073059" duration="15432000" />
+      <workItem from="1511575073059" duration="15857000" />
     </task>
     <task id="LOCAL-00001" summary="Policeman marker">
       <created>1511585496154</created>
@@ -246,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511608582433</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Obrazki">
+      <created>1511609262658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1511609262658</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15432000" />
+    <option name="totallyTimeSpent" value="15857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -287,7 +325,8 @@
     <MESSAGE value="Ikonki i porzadki" />
     <MESSAGE value="Czarny punkt" />
     <MESSAGE value="Poprawka punktu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawka punktu" />
+    <MESSAGE value="Obrazki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Obrazki" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -332,7 +371,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -340,16 +381,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1511609582813" expanded="true" signature="220:438" ph="{...}" />
+            <marker date="1511609582813" expanded="true" signature="233:438" ph="{...}" />
+            <marker date="1511609582813" expanded="true" signature="256:438" ph="&lt;View/&gt;" />
+            <marker date="1511609582813" expanded="true" signature="300:438" ph="&lt;TouchableOpacity/&gt;" />
+            <marker date="1511609582813" expanded="true" signature="394:438" ph="&lt;View/&gt;" />
           </folding>
         </state>
       </provider>
@@ -362,6 +399,26 @@
     <entry file="file://$PROJECT_DIR$/assets/policestation.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RouterComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
