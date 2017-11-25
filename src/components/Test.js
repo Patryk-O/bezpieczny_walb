@@ -7,17 +7,26 @@ export default class Test extends React.Component {
         {
             latlng: {
                 latitude: 50.786131,
-                longitude: 16.284904,
+                longitude: 16.28490
+
             },
             title: 'walbrzych',
             description: 'test',
-        }
+        },
+        {
+        latlng: {
+            latitude: 50.786031,
+            longitude: 16.28490
+
+        },
+        title: 'walb',
+        description: 'test2',
+    } 
     ];
   render() {
     return (
         <View style={styles.view}>
             <MapView style={styles.map}
-                annotations={markers}
                 initialRegion={{
                     latitude: 50.786131,
                     longitude: 16.284904,
