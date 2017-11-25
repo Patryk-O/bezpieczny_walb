@@ -7,6 +7,8 @@ export default class Map extends React.Component {
   render() {
     return (
         <View style={styles.view}>
+            <View style={styles.details}>
+            </View>
             <MapView style={styles.map}
                 initialRegion={{
                     latitude: 50.772349,
@@ -19,6 +21,7 @@ export default class Map extends React.Component {
                     coordinate={{ latitude: 50.772349,
                         longitude: 16.261400 }}
                     title={'Twoja pozycja'}
+                    image={require('../../assets/usermarker.png')}
                     />
                 {dataJson.markers.map(marker => (
                     <MapView.Marker
@@ -36,6 +39,9 @@ export default class Map extends React.Component {
 
 const styles = {
     view: {
+        flex: 1
+    },
+    details: {
         flex: 1
     },
     map: {
