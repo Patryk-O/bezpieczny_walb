@@ -7,17 +7,18 @@ export default class Welcome extends React.Component {
         <View style={styles.container}>
             <TouchableOpacity style={styles.button} onPress={() => this.przejdzDoMapy() }>
                <View style={styles.button}>
-               <Text> 
-                    Niebezpieczne miejsca
-                </Text>
+                    <Image style={styles.zdjecie}
+                    source={require('./../../assets/czarnyp.png')}
+                    />
                 </View>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button} onPress={() => this.przejdzDoListy() }>
             <View style={styles.button}>
-                <Text> 
-                    Lista posterunków
-                </Text>
+                    <Image style={styles.zdjecie}
+                    source={require('./../../assets/policestation.png')}
+                    />
                 </View>
+
             </TouchableOpacity>
         </View>
     );
@@ -35,6 +36,7 @@ const styles = {
     container:{
         flex: 1,
         flexDirection: 'column',
+        backgroundColor: '#c1bfbd'
     },
     button:{
         flex:1,
@@ -42,5 +44,11 @@ const styles = {
         alignItems: 'center'
         
     },
+    zdjecie:{
+        flex:0.8,
+        height:230,
+        width:230
+
+    }
 }
    
