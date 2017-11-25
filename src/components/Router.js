@@ -1,5 +1,5 @@
 import React from 'react';
-import {Scene, Router, Stack, ActionConst} from 'react-native-router-flux';
+import { Scene, Router, Stack } from 'react-native-router-flux';
 import Map from './Map';
 import Welcome from './Welcome';
 

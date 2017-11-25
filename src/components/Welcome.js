@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text,View,Button} from "react-native";
+import { View, Button } from "react-native";
 import { Actions } from 'react-native-router-flux';
 export default class Welcome extends React.Component {
   render() {
@@ -11,13 +11,11 @@ export default class Welcome extends React.Component {
                     color="#841584"
                     accessibilityLabel="Learn more about this purple button"
                 />
-    
         </View>
     );
   }
   onPressLearnMore(){
       Actions.map();
-
   }
 }
    
