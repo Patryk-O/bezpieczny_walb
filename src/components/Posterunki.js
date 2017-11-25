@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Button } from "react-native";
 import { Actions } from 'react-native-router-flux';
-export default class Welcome extends React.Component {
+export default class Posterunki extends React.Component {
   render() {
     return (
         <View>
@@ -12,7 +12,7 @@ export default class Welcome extends React.Component {
                     accessibilityLabel="Learn more about this purple button"
                 />
                 <Button
-                    onPress={this.onPressLearnMore1}
+                    onPress={this.onPressLearnMore}
                     title="Posterunki"
                     color="#841584"
                     accessibilityLabel="Learn more about this purple button"
@@ -23,8 +23,5 @@ export default class Welcome extends React.Component {
   onPressLearnMore(){
       Actions.map();
   }
-  onPressLearnMore1(){
-    Actions.posterunki();
-}
 }
    
