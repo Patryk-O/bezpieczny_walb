@@ -39,7 +39,7 @@ const styles={
         marginHorizontal:15,
         fontSize:40,
         borderBottomColor: '#000',
-        borderBottomWidth: 1
+        borderBottomWidth: 1     
 
     }
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

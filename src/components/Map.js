@@ -15,25 +15,25 @@ export default class Map extends React.Component {
     return (
         <View style={styles.view}>
             <View style={styles.details}>
-                <View>
+                <View style={styles.tile}>
                     <Text>{this.props.posterunek.title}</Text>
                 </View>
-                <View>
+                <View style={styles.tile}>
                     <Text>{this.props.posterunek.address} </Text>
                 </View>
-                <View>
+                <View style={styles.tile}>
                     <Text>{this.props.posterunek.name} </Text>
                 </View>
-                <View style={styles.photo}>
+                <View style={styles.tile}>
                     <TouchableOpacity onPress={() => Communications.phonecall(this.props.posterunek.phone, true)}><Text style={styles.photo}>{this.props.posterunek.phone}</Text></TouchableOpacity>
                 </View>
-                <View>
+                <View style={styles.tile}>
                     <Text>{this.props.posterunek.name2} </Text>
                 </View>
-                <View>
+                <View style={styles.tile}>
                     <TouchableOpacity onPress={() => Communications.phonecall(this.props.posterunek.phone2, true)}><Text style={styles.photo}>{this.props.posterunek.phone2}</Text></TouchableOpacity>
                 </View>
-                <View>
+                <View style={styles.tile}>
                     <TouchableOpacity onPress={() => Communications.email(this.props.posterunek.phone2, null,null,'Wiadomość do komendy','Treść wiadomości')}><Text>{this.props.posterunek.email} </Text></TouchableOpacity>
                 </View>
             </View>
@@ -77,13 +77,22 @@ const styles = {
         flex: 1
     },
     details: {
-        flex: 1
+        flex: 1,
+        paddingTop:60
     },
     map: {
         flex: 1
     },
     photo: {
         color: 'blue'
+    },
+    tile:{
+        height:30,
+        justifyContent:'center',
+        marginHorizontal:15,
+        fontSize:40,
+        borderBottomColor: '#000',
+        borderBottomWidth: 1 
     }
 }
    
