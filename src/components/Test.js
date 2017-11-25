@@ -1,28 +1,9 @@
 import React from 'react';
 import {Text,View} from "react-native";
 import MapView from 'react-native-maps';
-
+import markers from './Markers'
 export default class Test extends React.Component {
-     markers = [
-        {
-            latlng: {
-                latitude: 50.786131,
-                longitude: 16.28490
-
-            },
-            title: 'walbrzych',
-            description: 'test',
-        },
-        {
-        latlng: {
-            latitude: 50.786031,
-            longitude: 16.28490
-
-        },
-        title: 'walb',
-        description: 'test2',
-    } 
-    ];
+     
   render() {
     return (
         <View style={styles.view}>
@@ -39,6 +20,7 @@ export default class Test extends React.Component {
                     coordinate={marker.latlng}
                     title={marker.title}
                     description={marker.description}
+                    image={require('../../assets/logomarkes')}
                     />
                 ))} 
             </MapView>
