@@ -15,7 +15,7 @@ export default
 				"longitude": 16.291971
 
 			},
-			"title": " Wrocławska69",
+		"title": " Wrocławska69",
 			"description": "posterunek2 "
 		},
 		{

@@ -1,34 +1,35 @@
 import React from 'react';
-import { View } from "react-native";
+import {Text,View} from "react-native";
 import MapView from 'react-native-maps';
-import dataJson from './Markers';
-
-export default class Map extends React.Component {
+import markers from 
+export default class Test extends React.Component {
+    
   render() {
     return (
         <View style={styles.view}>
             <MapView style={styles.map}
                 initialRegion={{
-                    latitude: 50.772349,
-                    longitude: 16.261400,
+                    latitude: 50.786131,
+                    longitude: 16.284904,
                     latitudeDelta: 0.0922,
                     longitudeDelta: 0.0421,
                 }}
             >
-            <MapView.Marker
-                    coordinate={{ latitude: 50.772349,
-                        longitude: 16.261400 }}
-                    title={'Twoja pozycja'}
-                    />
-                {dataJson.markers.map(marker => (
+                {this.markers.map(marker => (
                     <MapView.Marker
                     coordinate={marker.latlng}
                     title={marker.title}
                     description={marker.description}
-                    image={require('../../assets/policemarker.png')}
+                    
                     />
-                ))}
+                ))} 
             </MapView>
+          
+            {/* <MapView.Marker
+                coordinate={}
+                image={require('C:\Users\MAX\Desktop\projekt\bezpieczny-walbrzych\src/policja_LOGO_1_0.jpg')}
+
+/> */}
         </View>
     );
   }
