@@ -6,13 +6,13 @@ export default class Welcome extends React.Component {
     return (
         <View>
                 <Button
-                    onPress={this.onPressLearnMore}
+                    onPress={this.przejdzDoMapy}
                     title="Przejdz do mapy"
                     color="#841584"
                     accessibilityLabel="Learn more about this purple button"
                 />
                 <Button
-                    onPress={this.onPressLearnMore1}
+                    onPress={this.przejdzDoListy}
                     title="Posterunki"
                     color="#841584"
                     accessibilityLabel="Learn more about this purple button"
@@ -20,11 +20,12 @@ export default class Welcome extends React.Component {
         </View>
     );
   }
-  onPressLearnMore(){
+  przejdzDoMapy(){
       Actions.map();
   }
-  onPressLearnMore1(){
+
+    przejdzDoListy(){
     Actions.posterunki();
-}
+    }
 }
    

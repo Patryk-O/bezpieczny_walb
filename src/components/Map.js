@@ -27,7 +27,7 @@ export default class Map extends React.Component {
                     <MapView.Marker
                     coordinate={marker.latlng}
                     title={marker.title}
-                    description={marker.description}
+                    description={marker.address}
                     image={require('../../assets/policemarker.png')}
                     />
                 ))}
