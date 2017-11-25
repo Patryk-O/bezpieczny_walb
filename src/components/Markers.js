@@ -7,10 +7,12 @@ export default
 
 			},
 			"title": "Komenda Miejska Policji",
-			"address": "Mazowiecka 2",
-			"phone": "74 842-02-34",
-			"name": "Dyżurny",
-			"email": "dyzury@walbrzych.wr.policja.gov.pl"
+			"address": "ul. Mazowiecka 2",
+			"name": "Sekretariat Komendanta:",
+			"phone": "74 842-08-69",
+			"name2": "Dyżurny:",
+			"phone2": "74 842-02-34",
+			"email": "komendant@walbrzych.wr.policja.gov.pl"
 		},
 		{
 			"latlng": {
@@ -18,10 +20,12 @@ export default
 				"longitude": 16.291971
 
 			},
-			"title": " Komisariat Policji nr1",
-			"address": " Wrocławska 69",
+			"title": "Komisariat Policji nr1",
+			"address": "ul. Wrocławska 69",
+			"name": "Sekretariat Komendanta:",
 			"phone": "74 842-01-26",
-			"name": "Sekretariat Komendanta",
+			"name2": "Dyżurny:",
+			"phone2": "74 842-03-31",
 			"email": "komendant@walbrzych.wr.policja.gov.pl"
 		},
 		{
@@ -32,8 +36,10 @@ export default
 			},
 			"title": "Komisariat Policji nr2",
 			"address": "ul. Psie Pole 7",
-			"phone": "74 842-02-34",
 			"name": "Komendant",
+			"phone": "74 842-05-12",
+			"name2": "Dyżurny",
+			"phone2": "74 842-03-32",
 			"email": ""
 		},
 		{
@@ -42,10 +48,12 @@ export default
 				"longitude": 16.254248
 
 			},
-			"title": "Komisariat Policji V",
+			"title": "Komisariat Policji nr5",
 			"address": "Andersa 161",
-			"phone": "",
 			"name": "Dyżurny",
+			"phone": "74 847-72-71",
+			"name2": "",
+			"phone2": "",
 			"email": ""
 		}
 

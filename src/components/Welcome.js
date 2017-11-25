@@ -1,17 +1,17 @@
 import React from 'react';
-import { View, Button } from "react-native";
+import { View, Button, Dimensions } from "react-native";
 import { Actions } from 'react-native-router-flux';
 export default class Welcome extends React.Component {
   render() {
     return (
-        <View>
-                <Button
+        <View style={styles.container}>
+                <Button style={styles.button}
                     onPress={this.przejdzDoMapy}
-                    title="Przejdz do mapy"
+                    title="Niebezpieczne miejsca"
                     color="#841584"
                     accessibilityLabel="Learn more about this purple button"
                 />
-                <Button
+                <Button style={styles.button}
                     onPress={this.przejdzDoListy}
                     title="Posterunki"
                     color="#841584"
@@ -21,11 +21,21 @@ export default class Welcome extends React.Component {
     );
   }
   przejdzDoMapy(){
-      Actions.map();
+      Actions.mappolygon();
   }
 
     przejdzDoListy(){
     Actions.posterunki();
     }
+}
+var {height, width}= Dimensions.get('window');
+const styles = {
+    container:{
+        flex: 1,
+        flexDirection: 'column'
+    },
+    button:{
+        height:400
+    },
 }
    
