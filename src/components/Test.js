@@ -20,7 +20,7 @@ export default class Test extends React.Component {
                     coordinate={marker.latlng}
                     title={marker.title}
                     description={marker.description}
-                    image={require('../../assets/logomarkes')}
+                    image={require('../../assets/policemarker.png')}
                     />
                 ))} 
             </MapView>
