@@ -45,9 +45,8 @@ const styles = {
         
     },
     zdjecie:{
-        flex:0.8,
-        height:230,
-        width:230
+        height:240,
+        width:240
 
     }
 }

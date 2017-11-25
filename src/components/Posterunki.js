@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { View, Button, Text, TouchableOpacity } from "react-native";
+import { View, Button, Text, TouchableOpacity, Dimensions } from "react-native";
 import { Actions } from 'react-native-router-flux';
 import dataJson from './Markers';
 export default class Posterunki extends React.Component {
@@ -10,9 +10,9 @@ export default class Posterunki extends React.Component {
     }
   render() {
     return (
-        <View>
+        <View style={styles.container}>
                {dataJson.markers.map(marker => (
-                   <TouchableOpacity onPress={() => this.przejdzDoMapy(marker)}>  
+                   <TouchableOpacity style={styles.tile} onPress={() => this.przejdzDoMapy(marker)}>  
                                       
                   <Text> 
                       {marker.title}
@@ -23,4 +23,23 @@ export default class Posterunki extends React.Component {
     );
   }
 
+}
+var {height, width}= Dimensions.get('window');
+const styles={
+    container:{
+        flex:1,
+        flexDirection:'column',
+        justifyContent:'flex-start',
+        backgroundColor:'#c1bfbd',
+        paddingTop: 25
+    },
+    tile:{
+        height:50,
+        justifyContent:'center',
+        marginHorizontal:15,
+        fontSize:40,
+        borderBottomColor: '#000',
+        borderBottomWidth: 1
+
+    }
 }
